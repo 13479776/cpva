@@ -2,10 +2,5 @@
 
 For details see https://stattarget.github.io/docs/
 
-
-Click to use: [Vignettes](https://stattarget.github.io/docs/my-new-doc/) 
-
-
-
-Demo data: [Data](https://stattarget.github.io/docs/demo/)
+Demo data: [Data](https://github.com/13479776/cpva/raw/master/ExampleDataset_CPVApos.zip)
 
