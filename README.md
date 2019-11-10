@@ -1,4 +1,4 @@
-# [Vignettes](https://stattarget.github.io/docs/my-new-doc/) 
+# [CPVA](https://stattarget.github.io/docs/my-new-doc/) 
 
 For details see https://stattarget.github.io/docs/
 
