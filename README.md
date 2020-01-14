@@ -9,6 +9,7 @@ Demo data: [Data](https://github.com/13479776/cpva/raw/master/ExampleDataset_CPV
 Contaminants Databases: [DB](https://github.com/13479776/cpva/raw/master/1-s2.0-S0003267008007605-mmc1.xls)
 
 #### How to install CPVA package?
+Firstly, please install the dependent packages using the following code:
 
     install.packages(c("RSQLite","shiny","shinyjs", "shinythemes", "plotly","DT","tidyverse","ggplot2","reshape2","stringr","signal",   "data.table","ptw", "timeDate", "dplyr","shinycssloaders", "methods","magrittr"))     
     
