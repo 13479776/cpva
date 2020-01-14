@@ -26,7 +26,7 @@ Then install CPVA package:
     install.packages(file_path,repos=NULL,type="source") # please replace the file_path with the real path of CPVA package; eg:install.packages("F:/CPVA.0.0.1.tar.gz",repos=NULL,type="source")
     
     
- ##### How to use the CPVA?
+ #### How to use the CPVA?
 1. prepare and upload your LC-MS data
 
    Before the XCMS analysis, raw MS1 data files should be converted into open data format (e.g, mzXML, mzML, cdf). The ProteoWizard's msconvert utility was recommended as the converter.
