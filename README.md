@@ -16,12 +16,12 @@ Firstly, please install the dependent packages using the following code:
     if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages(c("BiocManager","devtools"))
     
-    BiocManager::install("xcms",version = "3.10")
-    BiocManager::install("CAMERA",version = "3.10")
+    BiocManager::install(c("MSnbase","xcms","CAMERA"),version = "3.10")
     
     devtools::install_github("cttobin/ggthemr")
+    devtools::install_github("13479776/peakFinder")
     
-Then install metaX package:
+Then install CPVA package:
 
     install.packages(file_path,repos=NULL,type="source") # please replace the file_path with the real path of CPVA package; eg:install.packages("F:/CPVA.0.0.1.tar.gz",repos=NULL,type="source")
  ##### How to use the CPVA?
@@ -60,5 +60,5 @@ Then install metaX package:
     # save chromatogram file (Chromatograms object)
     saveRDS(chromatogramsFile,"chromatogramsFile.rds")
 
-> CPVA analysis (Example script)
+2. CPVA analysis (Example script)
    
