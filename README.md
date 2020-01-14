@@ -16,7 +16,8 @@ Firstly, please install the dependent packages using the following code:
     if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages(c("BiocManager","devtools"))
     
-    BiocManager::install(c("xcms(>= 3.7.5), "CAMERAs"))
+    BiocManager::install("xcms",version = "3.10")
+    BiocManager::install("CAMERA",version = "3.10")
     
     devtools::install_github("cttobin/ggthemr")
     
