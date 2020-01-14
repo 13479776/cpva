@@ -24,6 +24,8 @@ Firstly, please install the dependent packages using the following code:
 Then install CPVA package:
 
     install.packages(file_path,repos=NULL,type="source") # please replace the file_path with the real path of CPVA package; eg:install.packages("F:/CPVA.0.0.1.tar.gz",repos=NULL,type="source")
+    
+    
  ##### How to use the CPVA?
 1. prepare and upload your LC-MS data
 
