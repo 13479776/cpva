@@ -21,3 +21,6 @@ Firstly, please install the dependent packages using the following code:
     
     devtools::install_github("cttobin/ggthemr")
     
+Then install metaX package:
+
+    install.packages(file_path,repos=NULL,type="source") # please replace the file_path with the real path of CPVA package; eg:install.packages("F:/",repos=NULL,type="source")
