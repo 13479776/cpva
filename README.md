@@ -36,10 +36,14 @@ Then install metaX package:
      if(packageVersion("xcms") < "3.6.0") stop("You need to update 'xcms'")
      fls <- dir(system.file("cdf", package = "faahKO"), recursive = TRUE,
        full.names = TRUE) ## LC-MS data
-     raw_data <- readMSData(fls,mode = "onDisk", msLevel. = 1L) ## Reading the samples ## Only MS1 Levels 
-     cwp <- CentWaveParam(ppm = 25, noise = 10000) ## Perform the chromatographic peak detection using the cenWave method.
+     ## Reading the samples 
+     ## Only MS1 Levels 
+     raw_data <- readMSData(fls,mode = "onDisk", msLevel. = 1L) 
+     ## Perform the chromatographic peak detection using the cenWave method.
+     cwp <- CentWaveParam(ppm = 25, noise = 10000) 
      res <- findChromPeaks(raw_data, param = cwp)
-     fdp <- PeakDensityParam(sampleGroups = rep(1, length(fileNames(res))))## Performing the chromatographic peak grouping. Assigning all samples to the same sample group.
+     ## Performing the chromatographic peak grouping. Assigning all samples to the same sample group.
+     fdp <- PeakDensityParam(sampleGroups = rep(1, length(fileNames(res))))
      XCMSnExpFile <- groupChromPeaks(res, fdp)
 
     ## Extract chromatogram of peaks. 
@@ -56,5 +60,5 @@ Then install metaX package:
     # save chromatogram file (Chromatograms object)
     saveRDS(chromatogramsFile,"chromatogramsFile.rds")
 
-
+> CPVA analysis (Example script)
    
