@@ -12,6 +12,9 @@ Contaminants Databases: [DB](https://github.com/13479776/cpva/raw/master/1-s2.0-
 
     install.packages(c("RSQLite","shiny","shinyjs", "shinythemes", "plotly","DT","tidyverse","ggplot2","reshape2","stringr","signal",   "data.table","ptw", "timeDate", "dplyr","shinycssloaders", "methods","magrittr"))     
     
+    if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages(c("BiocManager","devtools"))
+    
     BiocManager::install(c("xcms(>= 3.7.5), "CAMERAs"))
     
     devtools::install_github("cttobin/ggthemr")
