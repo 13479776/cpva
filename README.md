@@ -62,4 +62,4 @@ Then install CPVA package:
     saveRDS(chromatogramsFile,"chromatogramsFile.rds")
 
 2. CPVA analysis (Example script)
-   
+   R package: [CPVA package](https://github.com/13479776/cpva/raw/master/ExampleDataset_CPVApos.zip)
