@@ -18,7 +18,6 @@ Firstly, please install the dependent packages using the following code:
     
     BiocManager::install(c("MSnbase","xcms","CAMERA"),version = "3.10")
     
-    devtools::install_github("cttobin/ggthemr")
     devtools::install_github("13479776/peakFinder")
     
 Then install CPVA package:
