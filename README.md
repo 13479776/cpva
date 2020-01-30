@@ -1,14 +1,14 @@
 # CPVA
 
-For details see https://stattarget.github.io/docs/
+For Online version see https://stattarget.github.io/docs/
 
-Souece Code: [CPVA package](https://github.com/13479776/cpva/raw/master/ExampleDataset_CPVApos.zip)
+Source Code: [CPVA package](https://github.com/13479776/cpva/raw/master/ExampleDataset_CPVApos.zip)
 
 Demo data: [Data](https://github.com/13479776/cpva/raw/master/ExampleDataset_CPVApos.zip)
 
 Contaminants Databases: [DB](https://github.com/13479776/cpva/raw/master/1-s2.0-S0003267008007605-mmc1.xls)
 
-#### How to install CPVA package?
+#### How to install local CPVA package?
 Firstly, please install the dependent packages using the following code:
 
     install.packages(c("RSQLite","shiny","shinyjs", "shinythemes", "plotly","DT","tidyverse","ggplot2","reshape2","stringr","signal",   "data.table","ptw", "timeDate", "dplyr","shinycssloaders", "methods","magrittr"))     
@@ -20,9 +20,9 @@ Firstly, please install the dependent packages using the following code:
     
     devtools::install_github("13479776/peakFinder")
     
-Then install CPVA package:
+Then dowload and install CPVA package:
 
-    R package: [CPVA package](https://github.com/13479776/cpva/raw/master/ExampleDataset_CPVApos.zip)
+   R package: [CPVA package](https://github.com/13479776/cpva/raw/master/ExampleDataset_CPVApos.zip)
 
     install.packages(file_path,repos=NULL,type="source") # please replace the file_path with the real path of CPVA package; eg:install.packages("F:/CPVA.0.0.1.tar.gz",repos=NULL,type="source")
     
@@ -63,7 +63,7 @@ Then install CPVA package:
     # save chromatogram file (Chromatograms object)
     saveRDS(chromatogramsFile,"chromatogramsFile.rds")
 
-2. CPVA analysis (Example script)
+2. local CPVA analysis (Example script)
 
        library(CPVA)
        # Annotation of peaks
