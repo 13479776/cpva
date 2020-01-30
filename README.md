@@ -65,4 +65,9 @@ Then install CPVA package:
 
 2. CPVA analysis (Example script)
 
+    library(CPVA)
+    # Annotation of peaks
+    anno <- annotatePeaks(XCMSnExpFile,chromatogramsFile)
+    # The Shiny app was activated for visualization of the reports
+    cpvaWeb(anno,chromatogramsFile)
    
