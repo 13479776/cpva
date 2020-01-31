@@ -1,6 +1,5 @@
 # CPVA
 
-For Online version see https://stattarget.github.io/docs/
 
 Source Code: [CPVA package](https://github.com/13479776/cpva/raw/master/ExampleDataset_CPVApos.zip)
 
