@@ -6,7 +6,7 @@ Source Code: [CPVA package](https://raw.githubusercontent.com/13479776/cpva/mast
 Demo data: [Data](https://raw.githubusercontent.com/13479776/cpva/master/ExampleDataset_CPVApos.zip)
 
 
-#### How to install local CPVA package?
+#### How to install the local CPVA package?
 
 Dependent on R (>= 3.6.2)
 
@@ -23,7 +23,7 @@ Firstly, please install the dependent packages using the following code:
     
     devtools::install_github("13479776/peakFinder")
     
-Then dowload and install CPVA package:
+Then dowload and install the local CPVA package:
 
    R package: [CPVA package](https://raw.githubusercontent.com/13479776/cpva/master/CPVA_0.0.1.tar.gz)
 
