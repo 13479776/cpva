@@ -39,7 +39,7 @@ Then dowload and install the local CPVA package:
      
      library(faahKO)
      library(xcms)
-     if(packageVersion("xcms") < "3.6.0") stop("You need to update 'xcms'")
+     if(packageVersion("xcms") < "3.6.0") stop("Update the 'xcms' version please")
      fls <- dir(system.file("cdf", package = "faahKO"), recursive = TRUE,
        full.names = TRUE) ## LC-MS data
      ## Reading the samples 
@@ -50,16 +50,16 @@ Then dowload and install the local CPVA package:
      res <- findChromPeaks(raw_data, param = cwp)
      ## Performing the chromatographic peak grouping. Assigning all samples to the same sample group.
      fdp <- PeakDensityParam(sampleGroups = rep(1, length(fileNames(res))))
+     
      XCMSnExpFile <- groupChromPeaks(res, fdp)
-
     ## Extract chromatogram of peaks. 
     ## The 'features' defining a subset of features for which chromatograms should be returned. Highly recommended ways to reduce the file size of chromatograms object.
     ## chromatogramsFile <- featureChromatograms(XCMSnExpFile, features = c(1:100),expandRt = 10)
     chromatogramsFile <- featureChromatograms(XCMSnExpFile, expandRt = 10)
 
-    #########################
-    #   Output for CPVA 
-    #########################
+    ################################
+    #   Output for the online CPVA 
+    ################################
 
     # save peak list file (XCMSnExp object)
     saveRDS(XCMSnExpFile, "XCMSnExpFile.rds")
