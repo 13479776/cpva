@@ -1,11 +1,10 @@
 # CPVA
 
 
-Source Code: [CPVA package](https://github.com/13479776/cpva/raw/master/ExampleDataset_CPVApos.zip)
+Source Code: [CPVA package](https://raw.githubusercontent.com/13479776/cpva/master/CPVA_0.0.1.tar.gz)
 
-Demo data: [Data](https://github.com/13479776/cpva/raw/master/ExampleDataset_CPVApos.zip)
+Demo data: [Data](https://raw.githubusercontent.com/13479776/cpva/master/ExampleDataset_CPVApos.zip)
 
-Contaminants Databases: [DB](https://github.com/13479776/cpva/raw/master/1-s2.0-S0003267008007605-mmc1.xls)
 
 #### How to install local CPVA package?
 
