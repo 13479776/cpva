@@ -19,13 +19,16 @@ Firstly, please install the dependent packages using the following code:
     if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages(c("BiocManager","devtools"))
     
-    BiocManager::install(c("MSnbase","xcms","CAMERA"),version = "3.10")
-    
+    BiocManager::install(c("MSnbase","xcms","CAMERA"))
     devtools::install_github("13479776/peakFinder")
     
-Then dowload and install the local CPVA package:
+    #The CPVA package can be direct installed from GitHub:
 
-   R package: [CPVA package](https://raw.githubusercontent.com/13479776/cpva/master/CPVA_0.0.1.tar.gz)
+    devtools::install_github("13479776/peakFinder")
+
+*The R packages can be downloaded and installed manually
+
+    The local R package: [CPVA package](https://raw.githubusercontent.com/13479776/cpva/master/CPVA_0.0.1.tar.gz)
 
     install.packages(file_path,repos=NULL,type="source") # please replace the file_path with the real path of CPVA package; eg:install.packages("F:/CPVA.0.0.1.tar.gz",repos=NULL,type="source")
     
