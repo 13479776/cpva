@@ -38,7 +38,11 @@ The R packages can be downloaded and installed manually. The local R package: [C
 
 > peak picking analysis (Example script)
      
+     # the faahKO for MS data
+     if (!requireNamespace("faahKO", quietly = TRUE))
+     BiocManager::install(c("faahKO"))
      library(faahKO)
+     
      library(xcms)
      if(packageVersion("xcms") < "3.6.0") stop("Update the 'xcms' version please")
      fls <- dir(system.file("cdf", package = "faahKO"), recursive = TRUE,
