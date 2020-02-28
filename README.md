@@ -40,7 +40,7 @@ The CPVA packages can be downloaded and installed manually. The local R package:
      
      # the faahKO for MS data
      if (!requireNamespace("faahKO", quietly = TRUE))
-     BiocManager::install(c("faahKO"))
+     BiocManager::install("faahKO")
      library(faahKO)
      
      library(xcms)
