@@ -1,9 +1,9 @@
 # CPVA
 
 
-Source Code: [CPVA package](https://raw.githubusercontent.com/13479776/cpva/master/CPVA_0.0.1.tar.gz)
+Source Code: [CPVA package](https://raw.githubusercontent.com/13479776/Picture/master/CPVA_0.0.1.tar.gz)
 
-Demo data: [Data](https://raw.githubusercontent.com/13479776/cpva/master/ExampleDataset_CPVApos.zip)
+Demo data: [Data](https://raw.githubusercontent.com/13479776/Picture/master/ExampleDataset_CPVApos.zip)
 
 
 #### How to install the local CPVA package?
