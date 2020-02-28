@@ -26,9 +26,7 @@ Firstly, please install the dependent packages using the following code:
 
     devtools::install_github("13479776/peakFinder")
 
-*The R packages can be downloaded and installed manually
-
-    The local R package: [CPVA package](https://raw.githubusercontent.com/13479776/cpva/master/CPVA_0.0.1.tar.gz)
+The R packages can be downloaded and installed manually. The local R package: [CPVA package](https://raw.githubusercontent.com/13479776/cpva/master/CPVA_0.0.1.tar.gz)
 
     install.packages(file_path,repos=NULL,type="source") # please replace the file_path with the real path of CPVA package; eg:install.packages("F:/CPVA.0.0.1.tar.gz",repos=NULL,type="source")
     
