@@ -12,7 +12,7 @@ Dependent on R (>= 3.6.2)
 
 If you did not install the R software yet,you can download R >= 3.6.2 from https://www.r-project.org
 
-Firstly, please install the dependent packages and CPVA using the following code:
+Firstly, please install the dependent packages using the following code:
 
     install.packages(c("RSQLite","shiny","shinyjs", "shinythemes", "plotly","DT","tidyverse","ggplot2","reshape2","stringr","signal",   "data.table","ptw", "timeDate", "dplyr","shinycssloaders", "methods","magrittr"))     
     
@@ -22,11 +22,11 @@ Firstly, please install the dependent packages and CPVA using the following code
     BiocManager::install(c("MSnbase","xcms","CAMERA"))
     devtools::install_github("13479776/peakFinder")
     
-    #The CPVA package can be direct installed from GitHub:
+The CPVA package can be directly installed from GitHub:
 
-    devtools::install_github("13479776/peakFinder")
+    devtools::install_github("13479776/cpva")
 
-The CPVA packages can be downloaded and installed manually. The local R package: [CPVA package](https://raw.githubusercontent.com/13479776/cpva/master/CPVA_0.0.1.tar.gz)
+The CPVA package can be downloaded and installed manually. The local R package: [CPVA package](https://raw.githubusercontent.com/13479776/cpva/master/CPVA_0.0.1.tar.gz)
 
     install.packages(file_path,repos=NULL,type="source") # please replace the file_path with the real path of CPVA package; eg:install.packages("F:/CPVA.0.0.1.tar.gz",repos=NULL,type="source")
     
