@@ -1,0 +1,12 @@
+name: CPVA
+title: CPVA
+username:
+account: luan
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 930914
+bundleId: 2088463
+url: https://luan.shinyapps.io/CPVA/
+when: 1557992403.97883
+asMultiple: FALSE
+asStatic: FALSE

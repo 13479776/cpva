@@ -1,0 +1,12 @@
+name: CPCA
+title: CPCA
+username:
+account: luan
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 932786
+bundleId: 2088399
+url: https://luan.shinyapps.io/CPCA/
+when: 1557990364.03774
+asMultiple: FALSE
+asStatic: FALSE
