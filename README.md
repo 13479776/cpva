@@ -82,4 +82,9 @@ The CPVA package can be downloaded and installed manually. The local R package: 
        anno <- annotatePeaks(XCMSnExpFile,chromatogramsFile)
        # The Shiny app was activated for visualization of the reports
        cpvaWeb(anno,chromatogramsFile)
-   
+       
+#### Links
+  
+GitHub repo & issue tracker: https://github.com/13479776/cpva
+
+Mailing list: luanhm@sustech.edu.cn
