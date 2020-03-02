@@ -30,9 +30,9 @@ The CPVA package can be downloaded and installed manually. The local R package: 
 
     install.packages(file_path,repos=NULL,type="source") # please replace the file_path with the real path of CPVA package; eg:install.packages("F:/CPVA.0.0.1.tar.gz",repos=NULL,type="source")
     
-```
-* Rcpp 1.0.2 version was recommended, if you got the warning message that "mzR has been built against a different Rcpp version (1.0.2) than is installed on your system".
-```
+
+**** Rcpp 1.0.2 version was recommended, if you got the warning message that "mzR has been built against a different Rcpp version (1.0.2) than is installed on your system".
+
 
     
  #### How to use the CPVA?
