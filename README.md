@@ -6,7 +6,7 @@ Source Code: [CPVA package](https://raw.githubusercontent.com/13479776/Picture/m
 Demo data: [Data](https://raw.githubusercontent.com/13479776/Picture/master/ExampleDataset_CPVApos.zip)
 
 
-#### How to install the local CPVA package?
+#### How to install the CPVA package?
 
 Dependent on R (>= 3.6.2)
 
