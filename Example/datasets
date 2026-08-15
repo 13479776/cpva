@@ -1,2 +1,3 @@
 paltform: HPLC-MS/Orbitrap
 Sample type: Urine
+IonMode: Positive
